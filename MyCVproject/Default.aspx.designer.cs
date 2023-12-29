@@ -33,39 +33,39 @@ namespace MyCVproject
         protected global::System.Web.UI.WebControls.Repeater Repeater2;
 
         /// <summary>
-        /// Label7 control.
+        /// Repeater3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
+        protected global::System.Web.UI.WebControls.Repeater Repeater3;
 
         /// <summary>
-        /// Label8 control.
+        /// Repeater4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label8;
+        protected global::System.Web.UI.WebControls.Repeater Repeater4;
 
         /// <summary>
-        /// Label9 control.
+        /// Repeater5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label9;
+        protected global::System.Web.UI.WebControls.Repeater Repeater5;
 
         /// <summary>
-        /// Label10 control.
+        /// Repeater6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label10;
+        protected global::System.Web.UI.WebControls.Repeater Repeater6;
     }
 }
