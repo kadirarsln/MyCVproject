@@ -63,84 +63,70 @@
     <div class="container-fluid p-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-            <div class="my-auto">
-                <h1 class="mb-0">Clarence
-           
-                    <span class="text-primary">Taylor</span>
-                </h1>
-                <div class="subheading mb-5">
-                    3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-           
-                    <a href="mailto:name@email.com">name@email.com</a>
-                </div>
-                <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                <div class="social-icons">
-                    <a href="#">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </div>
-            </div>
+            <asp:Repeater ID="Repeater1" runat="server">
+                <ItemTemplate>
+                    <div class="my-auto">
+                        <h1 class="mb-0">
+                            <asp:Label ID="Label1" runat="server" Text='<%# Eval("AD") %>'></asp:Label>
+
+                            <span class="text-primary">
+                                <asp:Label ID="Label2" runat="server" Text='<%# Eval("SOYAD") %>'></asp:Label></span>
+                        </h1>
+                        <div class="subheading mb-5">
+                            Adres:
+                            <asp:Label ID="Label3" runat="server" Text='<%# Eval("ADRES") %>'></asp:Label><p></p>
+                            Telefon:
+                            <asp:Label ID="Label4" runat="server" Text='<%# Eval("TELEFON") %>'></asp:Label><p></p>
+
+                            Mail: 
+                                <asp:Label ID="Label5" runat="server" Text='<%# Eval("MAIL") %>'></asp:Label>
+                        </div>
+                        <p class="lead mb-5">
+                            <asp:Label ID="Label6" runat="server" Text='<%# Eval("KISANOT") %>'></asp:Label>
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/kadir-%C5%9Fehmus-arslan-29716420a/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/kadirarsln">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/arsln.kadirsehmus">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </ItemTemplate>
+            </asp:Repeater>
         </section>
 
         <hr class="m-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+            <asp:Repeater ID="Repeater2" runat="server"></asp:Repeater>
+            <itemtemplate></itemtemplate>
             <div class="my-auto">
-                <h2 class="mb-5">Experience</h2>
+                <h2 class="mb-5">DENEYİMLERİM</h2>
 
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Senior Web Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <h3 class="mb-0">
+                            <asp:Label ID="Label7" runat="server" Text='<%# Eval("BASLIK") %>'></asp:Label></h3>
+                        <div class="subheading mb-3">
+                            <asp:Label ID="Label8" runat="server" Text='<%# Eval("ALTBASLIK") %>'></asp:Label>
+                        </div>
+                        <p>
+                            <asp:Label ID="Label9" runat="server" Text='<%# Eval("ACIKLAMA") %>'></asp:Label>
+                        </p>
                     </div>
                     <div class="resume-date text-md-right">
-                        <span class="text-primary">March 2013 - Present</span>
+                        <span class="text-primary">
+                            <asp:Label ID="Label10" runat="server" Text='<%# Eval("TARIH") %>'></asp:Label></span>
                     </div>
                 </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Web Developer</h3>
-                        <div class="subheading mb-3">Intelitec Solutions</div>
-                        <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">December 2011 - March 2013</span>
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Junior Web Designer</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">July 2010 - December 2011</span>
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Web Design Intern</h3>
-                        <div class="subheading mb-3">Shout! Media Productions</div>
-                        <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">September 2008 - June 2010</span>
-                    </div>
-                </div>
-
             </div>
 
         </section>

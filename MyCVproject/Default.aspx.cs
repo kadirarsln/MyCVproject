@@ -11,7 +11,9 @@ namespace MyCVproject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            DataSet1TableAdapters.TBL_HAKKIMDATableAdapter dt = new DataSet1TableAdapters.TBL_HAKKIMDATableAdapter();
+            Repeater1.DataSource = dt.HakkımdaListele();
+            Repeater1.DataBind();
         }
     }
 }
