@@ -201,8 +201,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminDeneyimDelete.aspx" />
     <Content Include="AdminDeneyimEkle.aspx" />
     <Content Include="AdminDeneyimler.aspx" />
+    <Content Include="AdminDeneyimUpdate.aspx" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.gitattributes" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.gitignore" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\dist\css\bootstrap-theme.css" />
@@ -1884,6 +1886,13 @@
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="AdminDeneyimDelete.aspx.cs">
+      <DependentUpon>AdminDeneyimDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDeneyimDelete.aspx.designer.cs">
+      <DependentUpon>AdminDeneyimDelete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminDeneyimEkle.aspx.cs">
       <DependentUpon>AdminDeneyimEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1897,6 +1906,13 @@
     </Compile>
     <Compile Include="AdminDeneyimler.aspx.designer.cs">
       <DependentUpon>AdminDeneyimler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDeneyimUpdate.aspx.cs">
+      <DependentUpon>AdminDeneyimUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDeneyimUpdate.aspx.designer.cs">
+      <DependentUpon>AdminDeneyimUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="CvDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
