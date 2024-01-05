@@ -472,6 +472,9 @@
     <Content Include="AdminDosyalar\sidebar\style4.css" />
     <Content Include="AdminDosyalar\sidebar\style5.css" />
     <Content Include="AdminDosyalar\StyleSheet2.css" />
+    <Content Include="AdminEğitimEkle.aspx" />
+    <Content Include="AdminEğitimler.aspx" />
+    <Content Include="AdminEğitimDelete.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Folder\.gitignore" />
     <Content Include="Folder\css\resume.css" />
@@ -1913,6 +1916,27 @@
     </Compile>
     <Compile Include="AdminDeneyimUpdate.aspx.designer.cs">
       <DependentUpon>AdminDeneyimUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEğitimEkle.aspx.cs">
+      <DependentUpon>AdminEğitimEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEğitimEkle.aspx.designer.cs">
+      <DependentUpon>AdminEğitimEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEğitimler.aspx.cs">
+      <DependentUpon>AdminEğitimler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEğitimler.aspx.designer.cs">
+      <DependentUpon>AdminEğitimler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEğitimDelete.aspx.cs">
+      <DependentUpon>AdminEğitimDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEğitimDelete.aspx.designer.cs">
+      <DependentUpon>AdminEğitimDelete.aspx</DependentUpon>
     </Compile>
     <Compile Include="CvDataSet.Designer.cs">
       <AutoGen>True</AutoGen>

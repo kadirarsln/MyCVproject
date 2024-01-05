@@ -45,7 +45,7 @@
                         <i class="fas fa-briefcase"></i>
                         Deneyimlerim
                     </a>
-                    <a href="#pageSubmenu">
+                    <a href="AdminEğitimler.Aspx">
                         <i class="glyphicon glyphicon-education"></i>
                         Eğitim Hayatım
                     </a>
