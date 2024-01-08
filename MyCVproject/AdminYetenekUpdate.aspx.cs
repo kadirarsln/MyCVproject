@@ -23,7 +23,7 @@ namespace MyCVproject
             }
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Button1_Click1(object sender, EventArgs e)
         {
             DataSet1TableAdapters.TBL_YETENEKLERIMTableAdapter dbYetenekUpdate = new DataSet1TableAdapters.TBL_YETENEKLERIMTableAdapter();
             dbYetenekUpdate.YetenekUpdate(TxtYetenek.Text, Convert.ToInt16(TxtId.Text));

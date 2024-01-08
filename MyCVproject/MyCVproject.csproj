@@ -483,6 +483,7 @@
     <Content Include="AdminSertifikaDelete.aspx" />
     <Content Include="AdminSertifikalar.aspx" />
     <Content Include="AdminSertifikalarEkle.aspx" />
+    <Content Include="AdminSertifikaUpdate.aspx" />
     <Content Include="AdminYetenekDelete.aspx" />
     <Content Include="AdminYetenekEkle.aspx" />
     <Content Include="AdminYetenekler.aspx" />
@@ -2005,6 +2006,13 @@
     </Compile>
     <Compile Include="AdminSertifikalarEkle.aspx.designer.cs">
       <DependentUpon>AdminSertifikalarEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSertifikaUpdate.aspx.cs">
+      <DependentUpon>AdminSertifikaUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSertifikaUpdate.aspx.designer.cs">
+      <DependentUpon>AdminSertifikaUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminYetenekDelete.aspx.cs">
       <DependentUpon>AdminYetenekDelete.aspx</DependentUpon>

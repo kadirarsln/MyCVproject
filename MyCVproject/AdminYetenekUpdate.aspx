@@ -11,13 +11,13 @@
                 <asp:TextBox ID="TxtId" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
             <br />
-            <div>
+            <<div>
                 <asp:Label ID="Label1" runat="server" Text="Yetenek"></asp:Label>
                 <asp:TextBox ID="TxtYetenek" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
             <br />
 
-            <asp:Button ID="Button1" runat="server" Text="Güncelle" CssClass="btn btn-success" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" Text="Güncelle" CssClass="btn btn-success" OnClick="Button1_Click1"  />
 
         </div>
 
