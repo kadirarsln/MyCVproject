@@ -476,6 +476,7 @@
     <Content Include="AdminEğitimler.aspx" />
     <Content Include="AdminEğitimDelete.aspx" />
     <Content Include="AdminEgitimUpdate.aspx" />
+    <Content Include="AdminHobiler.aspx" />
     <Content Include="AdminYetenekDelete.aspx" />
     <Content Include="AdminYetenekEkle.aspx" />
     <Content Include="AdminYetenekler.aspx" />
@@ -1949,6 +1950,13 @@
     </Compile>
     <Compile Include="AdminEgitimUpdate.aspx.designer.cs">
       <DependentUpon>AdminEgitimUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHobiler.aspx.cs">
+      <DependentUpon>AdminHobiler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHobiler.aspx.designer.cs">
+      <DependentUpon>AdminHobiler.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminYetenekDelete.aspx.cs">
       <DependentUpon>AdminYetenekDelete.aspx</DependentUpon>
