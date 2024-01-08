@@ -18,7 +18,6 @@ namespace MyCVproject
 
             if (Page.IsPostBack == false)
             {
-
                 DataSet1TableAdapters.TBL_DENEYIMLERIMTableAdapter dbDeneyimGet = new DataSet1TableAdapters.TBL_DENEYIMLERIMTableAdapter();
                 TxtBaslik.Text = dbDeneyimGet.DeneyimGetById(Convert.ToInt16(id))[0].BASLIK;
                 TxtAltBaslik.Text = dbDeneyimGet.DeneyimGetById(Convert.ToInt16(id))[0].ALTBASLIK;
