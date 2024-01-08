@@ -479,6 +479,7 @@
     <Content Include="AdminHobiDelete.aspx" />
     <Content Include="AdminHobiEkle.aspx" />
     <Content Include="AdminHobiler.aspx" />
+    <Content Include="AdminHobiUpdate.aspx" />
     <Content Include="AdminYetenekDelete.aspx" />
     <Content Include="AdminYetenekEkle.aspx" />
     <Content Include="AdminYetenekler.aspx" />
@@ -1973,6 +1974,13 @@
     </Compile>
     <Compile Include="AdminHobiler.aspx.designer.cs">
       <DependentUpon>AdminHobiler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHobiUpdate.aspx.cs">
+      <DependentUpon>AdminHobiUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHobiUpdate.aspx.designer.cs">
+      <DependentUpon>AdminHobiUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminYetenekDelete.aspx.cs">
       <DependentUpon>AdminYetenekDelete.aspx</DependentUpon>
