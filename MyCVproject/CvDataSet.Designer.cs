@@ -4133,8 +4133,8 @@ namespace MyCVproject.DataSet1TableAdapters {
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID", global::System.Data.SqlDbType.SmallInt, 2, global::System.Data.ParameterDirection.Input, 0, 0, "ID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[2].Connection = this.Connection;
-            this._commandCollection[2].CommandText = "UPDATE TBL_EGITIM SET BASLIK=@BASLIK, ALTBASLIK=@ALTBASLIK, ACIKLAMA=@ACIKLAMA,GN" +
-                "OT=@GNOT,TARIH=@TARIH WHERE ID=@ID";
+            this._commandCollection[2].CommandText = "UPDATE TBL_EGITIM SET BASLIK=@BASLIK,ALTBASLIK=@ALTBASLIK,ACIKLAMA=@ACIKLAMA,GNOT" +
+                "=@GNOT,TARIH=@TARIH WHERE ID=@ID";
             this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BASLIK", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "BASLIK", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[2].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ALTBASLIK", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "ALTBASLIK", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -4154,8 +4154,7 @@ namespace MyCVproject.DataSet1TableAdapters {
             this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TARIH", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "TARIH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[4] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[4].Connection = this.Connection;
-            this._commandCollection[4].CommandText = "SELECT        ID, BASLIK, ALTBASLIK, ACIKLAMA, GNOT, TARIH\r\nFROM            TBL_E" +
-                "GITIM WHERE ID=@ID";
+            this._commandCollection[4].CommandText = "SELECT  * FROM TBL_EGITIM WHERE ID=@ID";
             this._commandCollection[4].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID", global::System.Data.SqlDbType.SmallInt, 2, global::System.Data.ParameterDirection.Input, 0, 0, "ID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }

@@ -33,7 +33,7 @@
 
                             </td>
                             <td>
-                                <asp:HyperLink NavigateUrl='<%#"AdminEğitimUpdate.Aspx?ID=" + Eval("ID") %>' ID="HyperLink2" runat="server" CssClass="btn btn-success">Güncelle</asp:HyperLink></td>
+                                <asp:HyperLink NavigateUrl='<%#"AdminEgitimUpdate.Aspx?ID=" + Eval("ID") %>' ID="HyperLink2" runat="server" CssClass="btn btn-success">Güncelle</asp:HyperLink></td>
                         </tr>
 
                     </ItemTemplate>
