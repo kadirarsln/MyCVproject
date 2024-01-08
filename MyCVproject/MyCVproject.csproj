@@ -476,8 +476,10 @@
     <Content Include="AdminEğitimler.aspx" />
     <Content Include="AdminEğitimDelete.aspx" />
     <Content Include="AdminEgitimUpdate.aspx" />
+    <Content Include="AdminYetenekDelete.aspx" />
     <Content Include="AdminYetenekEkle.aspx" />
     <Content Include="AdminYetenekler.aspx" />
+    <Content Include="AdminYetenekUpdate.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Folder\.gitignore" />
     <Content Include="Folder\css\resume.css" />
@@ -1948,6 +1950,13 @@
     <Compile Include="AdminEgitimUpdate.aspx.designer.cs">
       <DependentUpon>AdminEgitimUpdate.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminYetenekDelete.aspx.cs">
+      <DependentUpon>AdminYetenekDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYetenekDelete.aspx.designer.cs">
+      <DependentUpon>AdminYetenekDelete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminYetenekEkle.aspx.cs">
       <DependentUpon>AdminYetenekEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1961,6 +1970,13 @@
     </Compile>
     <Compile Include="AdminYetenekler.aspx.designer.cs">
       <DependentUpon>AdminYetenekler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminYetenekUpdate.aspx.cs">
+      <DependentUpon>AdminYetenekUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYetenekUpdate.aspx.designer.cs">
+      <DependentUpon>AdminYetenekUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="CvDataSet.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -51,19 +51,19 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="AdminYetenekler.Aspx">
                         <i class="glyphicon glyphicon-pencil"></i>
                         Yeteneklerim
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="AdminHobiler.Aspx">
                         <i class="glyphicon glyphicon-console"></i>
                         Hobilerim
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="AdminSertifikalar.Aspx">
                         <i class="glyphicon glyphicon-book"></i>
                         Sertifikalarım
                     </a>
