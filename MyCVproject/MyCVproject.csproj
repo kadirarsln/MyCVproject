@@ -480,6 +480,7 @@
     <Content Include="AdminHobiEkle.aspx" />
     <Content Include="AdminHobiler.aspx" />
     <Content Include="AdminHobiUpdate.aspx" />
+    <Content Include="AdminSertifikalar.aspx" />
     <Content Include="AdminYetenekDelete.aspx" />
     <Content Include="AdminYetenekEkle.aspx" />
     <Content Include="AdminYetenekler.aspx" />
@@ -1981,6 +1982,13 @@
     </Compile>
     <Compile Include="AdminHobiUpdate.aspx.designer.cs">
       <DependentUpon>AdminHobiUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSertifikalar.aspx.cs">
+      <DependentUpon>AdminSertifikalar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSertifikalar.aspx.designer.cs">
+      <DependentUpon>AdminSertifikalar.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminYetenekDelete.aspx.cs">
       <DependentUpon>AdminYetenekDelete.aspx</DependentUpon>
