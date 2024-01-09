@@ -1892,6 +1892,8 @@
     <Content Include="Folder\vendor\jquery\jquery.slim.js" />
     <Content Include="Folder\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Hakkımda.aspx" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="LoginPageCss.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -2060,6 +2062,13 @@
     </Compile>
     <Compile Include="Hakkımda.aspx.designer.cs">
       <DependentUpon>Hakkımda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

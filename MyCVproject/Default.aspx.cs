@@ -15,6 +15,10 @@ namespace MyCVproject
             Repeater1.DataSource = dbHakkımda.HakkımdaListele();
             Repeater1.DataBind();
 
+            DataSet1TableAdapters.TBL_HAKKIMDATableAdapter dbHakkımdaFoto = new DataSet1TableAdapters.TBL_HAKKIMDATableAdapter();
+            Repeater7.DataSource = dbHakkımdaFoto.HakkımdaListele();
+            Repeater7.DataBind();
+
             DataSet1TableAdapters.TBL_DENEYIMLERIMTableAdapter dbDeneyimlerim = new DataSet1TableAdapters.TBL_DENEYIMLERIMTableAdapter();
             Repeater2.DataSource = dbDeneyimlerim.DeneyimListe();
             Repeater2.DataBind();
