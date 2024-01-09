@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Kadir Şehmus Arslan</title>
 
     <!-- Bootstrap core CSS -->
     <link href="Folder/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
